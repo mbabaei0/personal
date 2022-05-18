@@ -1,0 +1,1 @@
+(function (w,d,s,v,odl){(w[v]=w[v]||{})['odl']=odl;w[v]['ENV']='dev'; var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true; j.src='https://Intakerdev.azureedge.net/widget/chat.min.js'; f.parentNode.insertBefore(j,f); })(window, document, 'script','Intaker', 'jadidi');

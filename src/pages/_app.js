@@ -30,6 +30,8 @@ function MyApp({ Component, pageProps }) {
         src="/js/isotope.pkgd.min.js"
       ></Script>
       <Script id="wowInit" strategy="lazyOnload">{`new WOW().init();`}</Script>
+      <Script id="intakerInit" src="/js/intaker.js"></Script>
+
     </>
   );
 }
