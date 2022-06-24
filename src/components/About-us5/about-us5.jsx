@@ -19,13 +19,12 @@ const AboutUs5 = () => {
           </div>
           <div className="col-lg-5 valign">
             <div className="cont full-width">
-              <h3 className="color-font">Front End Web Developer</h3>
+              <h3 className="color-font">As Front End Developer</h3>
               <h5 className="co-tit mb-15">
-                We help to create visual strategies.
+                I work with this frameworks
               </h5>
               <p>
-                We are Vie. We create award-winning websites, remarkable brands
-                and cutting-edge apps.Nullam imperdie.
+                Mainly I work with Angular. but I have some expirince with React and Vue.
               </p>
               <div className="skills-box mt-40">
                 <div className="skill-item">
@@ -37,7 +36,13 @@ const AboutUs5 = () => {
                 <div className="skill-item">
                   <h5 className="fz-14 mb-15">React</h5>
                   <div className="skill-progress">
-                    <div className="progres" data-value="80%"></div>
+                    <div className="progres" data-value="40%"></div>
+                  </div>
+                </div>
+                <div className="skill-item">
+                  <h5 className="fz-14 mb-15">Vue</h5>
+                  <div className="skill-progress">
+                    <div className="progres" data-value="30%"></div>
                   </div>
                 </div>
               </div>

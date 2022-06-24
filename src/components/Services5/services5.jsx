@@ -9,7 +9,7 @@ const Services5 = () => {
           <div className="col-lg-8 col-md-10">
             <div className="sec-head  text-center">
               <h6 className="wow fadeIn" data-wow-delay=".5s">
-                Best Features
+                If you want a Committed developer
               </h6>
               <h3 className="wow color-font">
                I am a Developer who you can trust. :)

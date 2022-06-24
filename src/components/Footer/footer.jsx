@@ -8,17 +8,17 @@ const Footer = ({ hideBGCOLOR }) => {
     <footer className={`${!hideBGCOLOR ? "sub-bg" : ""}`}>
       <div className="container">
         <div className="row">
-          <div className="col-lg-4">
+          <div className="col-lg-8">
             <div className="item md-mb50">
               <div className="title">
-                <h5>Contact Us</h5>
+                <h5>Contact Info</h5>
               </div>
               <ul>
                 <li>
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
                     <h6>Officeal Address</h6>
-                    <p>504 White St . Dawsonville, GA 30534 , New York</p>
+                    <p>Guilan / Zanjan - Iran</p>
                   </div>
                 </li>
                 <li>
@@ -38,7 +38,7 @@ const Footer = ({ hideBGCOLOR }) => {
               </ul>
             </div>
           </div>
-          <div className="col-lg-4">
+          {/* <div className="col-lg-4">
             <div className="item md-mb50">
               <div className="title">
                 <h5>Recent News</h5>
@@ -100,34 +100,31 @@ const Footer = ({ hideBGCOLOR }) => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
           <div className="col-lg-4">
             <div className="item">
-              <div className="logo">
+              {/* <div className="logo">
                 <img src={appData.lightLogo} alt="" />
-              </div>
+              </div> */}
               <div className="social">
-                <a href="#0">
-                  <i className="fab fa-facebook-f"></i>
+                <a href="https://github.com/mbabaei0/" target="_blank" rel="noreferrer">
+                  <i className="fab fa-github"></i>
                 </a>
-                <a href="#0">
-                  <i className="fab fa-twitter"></i>
+                <a href="https://stackoverflow.com/users/5486223/mohammad-babaei" target="_blank" rel="noreferrer">
+                  <i className="fab fa-stack-overflow"></i>
                 </a>
-                <a href="#0">
-                  <i className="fab fa-instagram"></i>
-                </a>
-                <a href="#0">
-                  <i className="fab fa-youtube"></i>
+                <a href="https://www.linkedin.com/in/m-babaei/" target="_blank" rel="noreferrer">
+                  <i className="fab fa-linkedin-in"></i>
                 </a>
               </div>
               <div className="copy-right">
                 <p>
-                  © 2022, Vie Template. Made with passion by
+                  Find me with
                   <Link
-                    href="https://themeforest.net/user/themescamp/portfolio"
+                    href="https://github.com/mbabaei0/"
                     
                   >
-                    <a target="_blank">ThemesCamp</a>
+                    <a target="_blank">Mbabaei0</a>
                   </Link>
                   .
                 </p>

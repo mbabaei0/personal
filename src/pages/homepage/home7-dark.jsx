@@ -11,33 +11,33 @@ import Blogs2 from "../../components/blogs/Blogs2/blogs2";
 import SContactForm from "../../components/s-contact-form/s-contact-form";
 
 const Homepage = () => {
-  const navbarRef = React.useRef(null);
-  const logoRef = React.useRef(null);
+  // const navbarRef = React.useRef(null);
+  // const logoRef = React.useRef(null);
 
-  React.useEffect(() => {
-    var navbar = navbarRef.current;
-    if (window.pageYOffset > 300) {
-      navbar.classList.add("nav-scroll");
-    } else {
-      navbar.classList.remove("nav-scroll");
-    }
-    window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 300) {
-        navbar.classList.add("nav-scroll");
-      } else {
-        navbar.classList.remove("nav-scroll");
-      }
-    });
-  }, [navbarRef]);
+  // React.useEffect(() => {
+  //   var navbar = navbarRef.current;
+  //   if (window.pageYOffset > 300) {
+  //     navbar.classList.add("nav-scroll");
+  //   } else {
+  //     navbar.classList.remove("nav-scroll");
+  //   }
+  //   window.addEventListener("scroll", () => {
+  //     if (window.pageYOffset > 300) {
+  //       navbar.classList.add("nav-scroll");
+  //     } else {
+  //       navbar.classList.remove("nav-scroll");
+  //     }
+  //   });
+  // }, [navbarRef]);
   return (
     <DarkTheme>
-      <Navbar nr={navbarRef} lr={logoRef} />
+      {/* <Navbar nr={navbarRef} lr={logoRef} /> */}
       <FreelancreIntro />
       <Services5  />
-      <WorksStyle4 />
+      {/* <WorksStyle4 /> */}
       <AboutUs5 />
-      <FullTestimonials showHead />
-      <Blogs2 />
+      {/* <FullTestimonials showHead />
+      <Blogs2 /> */}
       <SContactForm noLine />
       <Footer />
     </DarkTheme>
